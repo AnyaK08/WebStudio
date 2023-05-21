@@ -2,8 +2,60 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    
+}
+h1, p, h2, h3, ul, li{
+    margin: 0;
+    padding: 0;
+
+  }
+  a{
+    text-decoration: none;
+    
+  }
+ ul{
+    list-style: none;
+ }
+.container{
+    margin: 0 auto;
+    width: 1600px;
 }
 /* Header */
+
+.header-wraper{
+        width: 1200px;
+        padding: 24px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+     }
+      .nav-list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 281px;
+     }
+     .header-left{
+        display: flex;
+        width: 520px;
+        justify-content: space-between;
+        align-items: center;
+       
+     }
+        .header-right{
+             display: flex;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        width: 307px;
+       
+        justify-content: space-between;
+        
+       
+     }
 .logo-link{
     font-family: 'Raleway';
     font-weight: 700;
@@ -16,6 +68,7 @@ body{
     .web{
         color: #2196F3;
     }
+   
     .nav-list{
         list-style-type:none;
      
@@ -48,25 +101,73 @@ body{
      .contact-list a:hover{
         color: #2196F3;
      }
+      
      /* Main */
         /* Buttons */
         .main-navigation-list{
-            list-style-type: none;
-        
+            width: 575px;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            margin-top: 94px;
         }
-        .main-navigation-button{
-            background-color:  #2196F3;
+     .button-all{
+        
         width: 73px;
         height: 38px;
-
-        }
-        .navigation-button{
-            background: #F5F4FA;
-            width: 125px;
-            height: 38px;
-        }
+        background: #f5f4fa;
+        border-radius: 4px;
+        border-color: #f5f4fa;
+        
+     }
+     .button-web{
+        width: 125px;
+        height: 38px;
+        background: #F5F4FA;
+        border-radius: 4px;
+        border-color: #F5F4FA;
+     }
+     .button-add{
+        width: 112px;
+        height: 38px;
+        background: #F5F4FA;
+        border-radius: 4px;
+        border-color: #F5F4FA;
+     }
+     
+     .button-design{
+        width: 103px;
+        height: 38px;
+        background: #F5F4FA;
+        border-radius: 4px;
+        border-color: #F5F4FA;
+     }
+     
+     .button-marketing{
+        width: 130px;
+        height: 38px;
+        background: #F5F4FA;
+        border-radius: 4px;
+        border-color: #F5F4FA;
+     }
+     .button-all:hover{
+        background: #2196F3;
+        color: #FFFFFF;
+     }
+     
+        /* Pictures */
     .main-content-list{
-        list-style-type: none;
+        width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-top: 34px;
+    }
+    .main-content-item{
+        background: #FFFFFF;
+        border: 1px solid #EEEEEE;
+        margin-bottom: 13.5px;
     }
     .main-content-picture{
         width: 370px;
@@ -78,6 +179,7 @@ body{
         line-height: 36px;
         letter-spacing: 0.06em;
         color: #212121;
+        margin-left: 15px;
     }
     .main-content-info{
         font-weight: 400;
@@ -85,6 +187,8 @@ body{
         line-height: 30px;
         letter-spacing: 0.03em;
         color: #757575;
+        margin-bottom: 36.5px;
+         margin-left: 15px;
 
     }
     /* Footer */
@@ -92,6 +196,7 @@ body{
     background: #2F303A;
     width: 1600px;
     height: 252px;
+    margin: 0 auto;
 }
    .nav-list-footer{
         list-style-type:none;
@@ -100,6 +205,8 @@ body{
         line-height: 24px;
         /* or 171% */
         letter-spacing: 0.03em;
+         padding-bottom: 9px;
+         padding-left: 215px;
     }
     .nav-list-footer a{
         text-decoration: none;
@@ -116,11 +223,13 @@ body{
         /* or 171% */
         letter-spacing: 0.03em;
         color: #FFFFFF;
+          margin-bottom: 9px;
+         padding-left: 215px;
+         font-style: normal;
+
 
     }
-    .footer-address{
-        font-style: normal;
-    }
+  
       .logo-link-footer{
     font-family: 'Raleway';
     font-weight: 700;
@@ -128,7 +237,8 @@ body{
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    text-decoration: none;
+     margin-bottom: 20px;
+    padding-left: 215px;
     }
     .web{
         color: #2196F3;

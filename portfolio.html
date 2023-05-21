@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="container">
     <!-- Header -->
     <header>
-        <nav>
+        <div class="header-wraper">
+        <nav class="header-nav">
+            <div class="header-left">
             <a class="logo-link" href="./index.html"><span class="web">Web</span>Studio</a>
             <ul class="nav-list">
                 <li>
@@ -25,6 +28,9 @@
                     <a href="#">Контакти</a>
                 </li>
             </ul>
+            </div>
+            </nav>
+            <div class="header-right">
             <ul class="contact-list">
                 <li>
                     <a href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -34,73 +40,76 @@
                 </li>
                 
             </ul>
-        </nav>
+        
+        </div>
+    </div>
     </header>
+   
     <!-- Main -->
     <section> 
         <ul class="main-navigation-list">
             <li>
-                <button type="button" class="main-navigation-button">Усі</button>
+                <button type="button" class="button-all">Усі</button>
             </li>
             <li>
-                <button type="button" class="navigation-button">Веб-сайти</button>
+                <button type="button" class="button-web">Веб-сайти</button> 
             </li>
             <li>
-                <button type="button" class="navigation-button">Додатки</button>
+                <button type="button" class="button-add">Додатки</button>
             </li>
             <li>
-                <button type="button" class="navigation-button">Дизайн</button>
+                <button type="button" class="button-design">Дизайн</button>
             </li>
             <li>
-                <button type="button" class="navigation-button">Маркетинг</button>
+                <button type="button" class="button-marketing">Маркетинг</button>
             </li>
         </ul>
         </section>
 
         <section>
         <ul class="main-content-list">
-            <li>
-                <img src="img/Screenshot_136.png" alt="photo" class="main-content-picture">
+            <li class="main-content-item">
+                <img src="./images/portfolio-img/Screenshot_133.png" alt="photo" class="main-content-picture">
                 <h3 class="main-content-header">Технокряк</h3>
                 <p class="main-content-info">Веб-сайт</p>
             </li>
-            <li>
-                <img src="img/Screenshot_134.png" alt="photo" class="main-content-picture">
+            <li class="main-content-item">
+                <img src="./images/portfolio-img/Screenshot_134.png" alt="photo" class="main-content-picture">
                 <h3 class="main-content-header">Постер New Orlean vs Golden Star</h3>
                 <p class="main-content-info">Дизайн</p>
             </li>
-            <li>
-                <img src="img/Screenshot_135.png" alt="photo" class="main-content-picture">
+            <li class="main-content-item">
+                <img src="./images/portfolio-img/Screenshot_135.png" alt="photo" class="main-content-picture">
                 <h3 class="main-content-header">Ресторан Seafood</h3>
                 <p class="main-content-info">Додаток</p>
             </li>
-            <li>
-                <img src="img/Screenshot_137.png" alt="photo" class="main-content-picture">
+            <li class="main-content-item">
+                <img src="./images/portfolio-img/Screenshot_137.png" alt="photo" class="main-content-picture">
                 <h3 class="main-content-header">Проєкт Prime</h3>
                 <p class="main-content-info">Маркетинг</p>
             </li>
-            <li>
-                <img src="img/Screenshot_138.png" alt="photo" class="main-content-picture">
+            <li class="main-content-item">
+                <img src="./images/portfolio-img/Screenshot_138.png" alt="photo" class="main-content-picture">
                 <h3 class="main-content-header">Проєкт Boxes</h3>
                 <p class="main-content-info">Додаток</p>
             </li>
-            <li>
-                <img src="img/Screenshot_139.png" alt="photo" class="main-content-picture">
+            <li class="main-content-item">
+                <img src="./images/portfolio-img/Screenshot_139.png" alt="photo" class="main-content-picture">
                 <h3 class="main-content-header">Inspiration has no Borders</h3>
                 <p class="main-content-info">Веб-сайт</p>
             </li>
-            <li>
-                <img src="img/Screenshot_140.png" alt="photo" class="main-content-picture">
+            <li class="main-content-item">
+                <img src="./images/portfolio-img/Screenshot_140.png" alt="photo" class="main-content-picture">
                 <h3 class="main-content-header">Видання Limited Edition</h3>
                 <p class="main-content-info">Дизайн</p>
             </li>
-            <li>
-                <img src="img/Screenshot_141.png" alt="photo" class="main-content-picture">
+            <li class="main-content-item">
+                <img src="./images/portfolio-img/Screenshot_141.png" alt="photo" class="main-content-picture">
                 <h3 class="main-content-header">Проєкт LAB</h3>
                 <p class="main-content-info">Маркетинг</p>
             </li>
-            <li>
-                <img src="img/Screenshot_142.png" alt="photo" class="main-content-picture">
+            <li class="main-content-item">
+                <img src="./images/portfolio-img/Screenshot_142.png" alt="photo" class="main-content-picture">
                 <h3 class="main-content-header">Growing Business</h3>
                 <p class="main-content-info">Додаток</p>
             </li>
@@ -122,5 +131,6 @@
         </section>
 
     </footer>
+    </div>
 </body>
 </html>
