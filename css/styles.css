@@ -315,13 +315,16 @@ padding-bottom: 30px;
 }
 .icons-container{
     display: flex;
-    margin: 0 auto;
+    width: 206px;
+    justify-content: center;
    
+}
+.team-link{
    
 }
 .team-icon{
     fill: #AFB1B8;
-    margin-right: 34px;
+    justify-content: space-between;
     
    
 }
@@ -329,7 +332,8 @@ padding-bottom: 30px;
     fill: #2196F3;
 }
 .clients-section{
-    width: 1170px;
+    width: 1200px;
+    margin: 0 auto;
 }
 .clients-header{
     color: #212121;
@@ -343,10 +347,9 @@ letter-spacing: 1.08px;
 margin-top: 94px;
 margin-bottom: 50px;
 }
-.clients-wraper{
+
+.clients-list{
     display: flex;
-    margin: 0 auto;
-    
 }
 .clients-container{
  
@@ -436,6 +439,9 @@ margin-bottom: 50px;
         line-height: normal;
         letter-spacing: 0.42px;
         padding-bottom: 32px;
+    }
+    .join-list{
+        display: flex;
     }
     .icons-footer{
         fill: #FFFFFF;
