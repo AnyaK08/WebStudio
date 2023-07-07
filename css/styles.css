@@ -96,9 +96,9 @@
          text-decoration: none;
         color: #757575;
      }
-     .link:hover{
+    .link:hover{
         color: #2196F3;
-     }
+    }
      
      header{
         width: 1600px;
@@ -119,6 +119,16 @@
         align-items: center;
        
      }
+     .header-contact{
+        fill: #757575;
+     }
+     .header-contact:hover{
+        fill: #2196F3
+     }
+     .header-mail{
+       
+     }
+ 
      
      /* Hero */
      .hero{
@@ -205,6 +215,17 @@
 
 
 }
+.features-container{
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    display: flex;
+    margin-bottom: 30px;
+}
+.icon-features{
+    margin: 0 auto;
+    padding: 25px 0;
+}
 
 .section-title{
     text-align: center;
@@ -288,8 +309,64 @@ padding-bottom: 30px;
     letter-spacing: 0.03em;
     color: #757575;
     text-align: center;
+    margin-bottom: 16px;
     
 
+}
+.icons-container{
+    display: flex;
+    margin: 0 auto;
+   
+   
+}
+.team-icon{
+    fill: #AFB1B8;
+    margin-right: 34px;
+    
+   
+}
+.team-icon:hover{
+    fill: #2196F3;
+}
+.clients-section{
+    width: 1170px;
+}
+.clients-header{
+    color: #212121;
+text-align: center;
+font-size: 36px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+margin-top: 94px;
+margin-bottom: 50px;
+}
+.clients-wraper{
+    display: flex;
+    margin: 0 auto;
+    
+}
+.clients-container{
+ 
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    width: 170px;
+    height: 92px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 94px;
+  
+}
+.icons-clients{
+    fill: #AFB1B8;
+    display: flex;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+.icons-clients:hover{
+    fill: #2196F3;
 }
 /* Footer */
  footer{
@@ -297,6 +374,8 @@ padding-bottom: 30px;
     width: 1600px;
     height: 252px;
     margin: 0 auto;
+    
+   
 }
 
    .nav-list-footer{
@@ -348,4 +427,27 @@ padding-bottom: 30px;
     .web{
         color: #2196F3;
     }
-    
+    .join-header{
+        color: #FFF;
+        font-size: 14px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.42px;
+        padding-bottom: 32px;
+    }
+    .icons-footer{
+        fill: #FFFFFF;
+        margin-right: 22px;
+    }
+    .icons-footer:hover{
+        fill: #2196F3;
+    }
+    .footer{
+        display: flex;
+    }
+    .footer-right{
+        margin-top: 72px;
+        margin-left: 70px;
+    }
