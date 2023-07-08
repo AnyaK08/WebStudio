@@ -82,6 +82,7 @@
         width: 333px;
         display: flex;
         justify-content: space-between;
+       
         
        
      }
@@ -129,6 +130,11 @@
      .icon-header{
         fill: #757575;
         margin-right: 10px;
+     }
+     .icon-header-phone{
+        fill: #757575;
+        margin-right: 10px;
+     
      }
     
     
@@ -419,10 +425,7 @@ margin-bottom: 50px;
         padding-bottom: 9px;
          padding-left: 215px;
     }
-    .nav-list-footer a:hover{
-        color: #2196F3;
     
-    }
     .footer-address{
         font-weight: 400;
         font-size: 14px;
