@@ -79,7 +79,7 @@
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
-        width: 307px;
+        width: 333px;
         display: flex;
         justify-content: space-between;
         
@@ -95,11 +95,18 @@
         
          text-decoration: none;
         color: #757575;
+       
+       
      }
-    .link:hover{
+     .link:hover{
         color: #2196F3;
+     }
+   
+    .link:hover .icon-header{
+        fill: #2196F3;
     }
-     
+
+    
      header{
         width: 1600px;
      }
@@ -119,16 +126,13 @@
         align-items: center;
        
      }
-     .header-contact{
+     .icon-header{
         fill: #757575;
+        margin-right: 10px;
      }
-     .header-contact:hover{
-        fill: #2196F3
-     }
-     .header-mail{
-       
-     }
- 
+    
+    
+     
      
      /* Hero */
      .hero{
@@ -316,20 +320,35 @@ padding-bottom: 30px;
 .icons-container{
     display: flex;
     width: 206px;
-    justify-content: center;
+    margin: 0 auto;
+    justify-content: space-between;
    
+}
+.icons-container-item{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
 .team-link{
    
 }
 .team-icon{
     fill: #AFB1B8;
-    justify-content: space-between;
+   
     
    
 }
-.team-icon:hover{
-    fill: #2196F3;
+.icons-container-item:hover{
+    border-radius: 50%;
+    background-color: #2196F3;
+
+}
+.icons-container-item:hover .team-icon{
+    fill: #FFFFFF;
 }
 .clients-section{
     width: 1200px;
@@ -361,6 +380,10 @@ margin-bottom: 50px;
     justify-content: space-between;
     margin-bottom: 94px;
   
+}
+.clients-container:hover{
+    border: 1px solid #2196F3;
+    
 }
 .icons-clients{
     fill: #AFB1B8;
@@ -443,13 +466,28 @@ margin-bottom: 50px;
     .join-list{
         display: flex;
     }
+    .join-list-item{
+        border-radius: 50%;
+        background-color: #FFFFFF1A;
+        width: 44px;
+        height: 44px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+
+        
+    }
+   .join-list-item:hover{
+    border-radius: 50%;
+    background-color: #2196F3;
+   }
     .icons-footer{
         fill: #FFFFFF;
-        margin-right: 22px;
+       
+        
     }
-    .icons-footer:hover{
-        fill: #2196F3;
-    }
+    
     .footer{
         display: flex;
     }
