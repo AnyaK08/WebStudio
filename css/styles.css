@@ -131,11 +131,7 @@
         fill: #757575;
         margin-right: 10px;
      }
-     .icon-header-phone{
-        fill: #757575;
-        margin-right: 10px;
-     
-     }
+    
     
     
      
@@ -252,13 +248,37 @@
 .work{
     padding-bottom: 90px;
 }
+.work-thumb{
+    object-fit:cover ;
+    object-position: center;
+}
 
 .work-list{
     width: 1200px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    position: relative;
     
+}
+.work-title{
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+padding: 27px;
+}
+.work-container{
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.80);
+    position: absolute;
+    top: 224px;
 }
 .team-section{
     background-color:  #F5F4FA;
@@ -339,8 +359,9 @@ padding-bottom: 30px;
     
     
 }
-.team-link{
-   
+.team-thumb{
+   object-fit: cover;
+   object-position: center;
 }
 .team-icon{
     fill: #AFB1B8;
@@ -388,7 +409,8 @@ margin-bottom: 50px;
   
 }
 .clients-container:hover{
-    border: 1px solid #2196F3;
+    border:1px solid #2196F3;
+    fill: #2196F3;
     
 }
 .icons-clients{
@@ -464,7 +486,7 @@ margin-bottom: 50px;
         font-weight: 700;
         line-height: normal;
         letter-spacing: 0.42px;
-        padding-bottom: 32px;
+        padding-bottom: 20px;
     }
     .join-list{
         display: flex;

@@ -50,7 +50,7 @@ h1, p, h2, h3, ul, li{
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
-        width: 307px;
+        width: 333px;
        
         justify-content: space-between;
         
@@ -107,6 +107,25 @@ h1, p, h2, h3, ul, li{
      .contact-list a:hover{
         color: #2196F3;
      }
+     .link{
+        
+        text-decoration: none;
+       color: #757575;
+      
+      
+    }
+    .link:hover{
+       color: #2196F3;
+    }
+  
+   .link:hover .icon-header{
+       fill: #2196F3;
+   }
+   .icon-header{
+    fill: #757575;
+    margin-right: 10px;
+ }
+
       
      /* Main */
         /* Buttons */
@@ -160,6 +179,22 @@ h1, p, h2, h3, ul, li{
         background: #2196F3;
         color: #FFFFFF;
      }
+     .button-marketing:hover{
+        background: #2196F3;
+        color: #FFFFFF;
+     }
+     .button-add:hover{
+        background: #2196F3;
+        color: #FFFFFF;
+     }
+     .button-web:hover{
+        background: #2196F3;
+        color: #FFFFFF;
+     }
+     .button-design:hover{
+        background: #2196F3;
+        color: #FFFFFF;
+     }
      
         /* Pictures */
     .main-content-list{
@@ -168,12 +203,13 @@ h1, p, h2, h3, ul, li{
         justify-content: space-between;
         flex-wrap: wrap;
         margin: 0 auto;
-        margin-top: 34px;
+        margin-top: 50px;
+        margin-bottom: 94px;
     }
     .main-content-item{
         background: #FFFFFF;
         border: 1px solid #EEEEEE;
-        margin-bottom: 13.5px;
+        margin-bottom: 32px;
     }
     .main-content-picture{
         width: 370px;
@@ -211,17 +247,15 @@ h1, p, h2, h3, ul, li{
         line-height: 24px;
         /* or 171% */
         letter-spacing: 0.03em;
-         padding-bottom: 9px;
+         padding-top: 9px;
          padding-left: 215px;
     }
     .nav-list-footer a{
         text-decoration: none;
         color: rgba(255, 255, 255, 0.6);
+      
     }
-    .nav-list-footer a:hover{
-        color: #2196F3;
     
-    }
     .footer-address{
         font-weight: 400;
         font-size: 14px;
@@ -229,7 +263,7 @@ h1, p, h2, h3, ul, li{
         /* or 171% */
         letter-spacing: 0.03em;
         color: #FFFFFF;
-          margin-bottom: 9px;
+        padding-top: 9px;
          padding-left: 215px;
          font-style: normal;
 
@@ -248,4 +282,49 @@ h1, p, h2, h3, ul, li{
     }
     .web{
         color: #2196F3;
+    }
+    .join-header{
+        color: #FFF;
+        font-size: 14px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.42px;
+        padding-bottom: 20px;
+    }
+    .join-list{
+        display: flex;
+    }
+    .join-list-item{
+        border-radius: 50%;
+        background-color: #FFFFFF1A;
+        width: 44px;
+        height: 44px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+
+        
+    }
+   .join-list-item:hover{
+    border-radius: 50%;
+    background-color: #2196F3;
+   }
+    .icons-footer{
+        fill: #FFFFFF;
+       
+        
+    }
+    
+    .footer{
+        display: flex;
+    }
+    .footer-right{
+        margin-top: 72px;
+        margin-left: 70px;
+    }
+    .footer-left{
+        margin-top: 60px;
     }
