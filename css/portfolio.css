@@ -211,9 +211,13 @@ h1, p, h2, h3, ul, li{
         border: 1px solid #EEEEEE;
         margin-bottom: 32px;
     }
-    .main-content-picture{
+    .main-content-thumb{
         width: 370px;
         height: 294px;
+    }
+    .main-content-picture{
+        object-fit: cover;
+        object-position: center;
     }
     .main-content-header{
         font-weight: 700;
