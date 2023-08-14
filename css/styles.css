@@ -52,6 +52,10 @@
     
 
     }
+    .nav-list-item:hover{
+        transition: all 250ms ease-out;
+        color: #2196F3;
+    }
  
     .nav-list-link{
         position: relative;
@@ -68,6 +72,9 @@
         top: 44px;
     
     
+    }
+    .nav-list-item{
+
     }
     .nav-list-link:hover{
         color: #2196F3;
