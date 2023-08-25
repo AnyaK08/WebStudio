@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/portfolio.css"><link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -58,28 +61,28 @@
     </header>
    
     <!-- Main -->
-    <section> 
+    <section > 
         <ul class="main-navigation-list">
-            <li>
+            <li class="button-item">
                 <button type="button" class="button-all">Усі</button>
             </li>
-            <li>
+            <li class="button-item">
                 <button type="button" class="button-web">Веб-сайти</button> 
             </li>
-            <li>
+            <li class="button-item">
                 <button type="button" class="button-add">Додатки</button>
             </li>
-            <li>
+            <li class="button-item">
                 <button type="button" class="button-design">Дизайн</button>
             </li>
-            <li>
+            <li class="button-item">
                 <button type="button" class="button-marketing">Маркетинг</button>
             </li>
         </ul>
         </section>
 
-        <section>
-        <ul class="main-content-list">
+        <section >
+        <ul class="main-content-list" data-aos="fade-down"  data-aos-easing="linear" data-aos-duration="900">
             <li class="main-content-item">
                 <div class="main-content-thumb">
                   <img src="./images/portfolio-img/img (2).png" alt="photo" class="main-content-picture">
@@ -265,7 +268,7 @@
               </ul>
             </div>
             <div class="footer-right">
-              <h3 class="join-header">ПРИЄДНУЙТЕСЬ</h3>
+              <h3 class="join-header animate__animated animate__pulse">ПРИЄДНУЙТЕСЬ</h3>
               
                 <ul class="join-list">
                   <li class="join-list-item">
@@ -310,6 +313,11 @@
           
         </section>
       </footer>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
     </div>
+   
 </body>
 </html>

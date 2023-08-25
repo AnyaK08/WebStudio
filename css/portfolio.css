@@ -89,14 +89,18 @@ h1, p, h2, h3, ul, li{
         text-decoration: none;
         color: black;
     }
+    .nav-list-link-item{
+        transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
     .nav-list-item:hover{
-        transition: all 250ms ease-out;
+       
         color: #2196F3;
     }
  
     .nav-list-link{
         position: relative;
         color: black;
+     
     }
     .nav-list-link:hover::after{
         content: "";
@@ -107,7 +111,7 @@ h1, p, h2, h3, ul, li{
         border-radius: 4px;
         position: absolute;
         top: 44px;
-    
+       
     
     }
     .nav-list a:hover{
@@ -129,7 +133,7 @@ h1, p, h2, h3, ul, li{
         color: #2196F3;
      }
      .link{
-        
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         text-decoration: none;
        color: #757575;
       
@@ -157,6 +161,9 @@ h1, p, h2, h3, ul, li{
             margin: 0 auto;
             margin-top: 94px;
         }
+        .button-item{
+            overflow: hidden;
+        }
      .button-all{
         
         width: 73px;
@@ -165,8 +172,12 @@ h1, p, h2, h3, ul, li{
         border-radius: 4px;
         border-color: #f5f4fa;
         border: none;
+        transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
+        
         
      }
+
      .button-web{
         width: 125px;
         height: 38px;
@@ -174,6 +185,7 @@ h1, p, h2, h3, ul, li{
         border-radius: 4px;
         border-color: #F5F4FA;
         border: none;
+        transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
      }
      .button-add{
         width: 112px;
@@ -182,6 +194,7 @@ h1, p, h2, h3, ul, li{
         border-radius: 4px;
         border-color: #F5F4FA;
         border: none;
+        transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
      }
      
      .button-design{
@@ -191,6 +204,7 @@ h1, p, h2, h3, ul, li{
         border-radius: 4px;
         border-color: #F5F4FA;
         border: none;
+        transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
      }
      
      .button-marketing{
@@ -200,26 +214,37 @@ h1, p, h2, h3, ul, li{
         border-radius: 4px;
         border-color: #F5F4FA;
         border: none;
+        transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
      }
      .button-all:hover{
         background: #2196F3;
         color: #FFFFFF;
+        transform: scaleX(1.2);
+        cursor: pointer;
      }
      .button-marketing:hover{
         background: #2196F3;
         color: #FFFFFF;
+        transform: scaleX(1.2);
+        cursor: pointer;
      }
      .button-add:hover{
         background: #2196F3;
         color: #FFFFFF;
+        transform: scaleX(1.2);
+        cursor: pointer;
      }
      .button-web:hover{
         background: #2196F3;
         color: #FFFFFF;
+        transform: scaleX(1.2);
+        cursor: pointer;
      }
      .button-design:hover{
         background: #2196F3;
         color: #FFFFFF;
+        transform: scaleX(1.2);
+        cursor: pointer;
      }
      
         /* Pictures */
@@ -240,7 +265,8 @@ h1, p, h2, h3, ul, li{
     }
     .main-content-item:hover .overlay{
         transform: translateX(0);
-        transition: transform 0.2s ease-in;
+        transition: transform 0.2s ease-in 0.3s;
+    
     }
     .main-content-thumb{
        
@@ -363,6 +389,8 @@ h1, p, h2, h3, ul, li{
     align-items: center;
     justify-content: center;
     margin-right: 10px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 
         
     }
@@ -372,7 +400,7 @@ h1, p, h2, h3, ul, li{
    }
     .icons-footer{
         fill: #FFFFFF;
-       
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
     }
     
