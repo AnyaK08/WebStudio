@@ -102,16 +102,19 @@ h1, p, h2, h3, ul, li{
         color: black;
      
     }
-    .nav-list-link:hover::after{
+    .nav-list-link::after{
         content: "";
         display: block;
         background-color: #2196F3;
-        width: 100%;
+        width: 0;
         height: 4px;
         border-radius: 4px;
         position: absolute;
         top: 44px;
-       
+    }
+    .nav-list-link:hover::after{
+       transition: width 250ms ease-in-out;
+       width: 100%;
     
     }
     .nav-list a:hover{
@@ -257,6 +260,7 @@ h1, p, h2, h3, ul, li{
         margin-top: 50px;
         margin-bottom: 94px;
     }
+    
     .main-content-item{
         background: #FFFFFF;
         border: 1px solid #EEEEEE;
@@ -306,6 +310,8 @@ h1, p, h2, h3, ul, li{
         letter-spacing: 0.06em;
         color: #212121;
         margin-left: 15px;
+        padding-top: 20px;
+
     }
     .main-content-info{
         font-weight: 400;
@@ -413,4 +419,59 @@ h1, p, h2, h3, ul, li{
     }
     .footer-left{
         margin-top: 60px;
+    }
+    .footer-form-title{
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+    }
+    .input-footer{
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.30);
+        background: rgba(33, 150, 243, 0.00);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    
+        width: 358px;
+        height: 46px;
+        padding: 0 16px;
+    }
+    .footer-btn{
+        color: #FFF;
+        width: 200px;
+       
+        
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px; /* 187.5% */
+        letter-spacing: 0.96px;
+        border-radius: 4px;
+        background: #2196F3;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        border: none;
+        height: 50px;
+        margin-left: 12px;
+        position: relative;
+        
+
+    }
+    .icon-footer-send{
+        fill: #FFF;
+        margin-left: 10px;
+        position: absolute;
+        top: 10px;
+      
+    }
+    .footer-third-part{
+        margin-top: 72px;
+        margin-left: 83px;
+    }
+    .footer-form-title{
+        margin-bottom: 20px;
     }
